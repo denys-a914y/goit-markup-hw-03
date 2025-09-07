@@ -390,9 +390,6 @@ nav {
 
 }
 
-.first {
-  width: calc((100% - 72px) / 4);
-}
 
 
 
@@ -529,6 +526,7 @@ nav {
 
 
 }
+
 
 .header-nav-item {
   display: flex;
