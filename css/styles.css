@@ -384,6 +384,7 @@ nav {
 
 
   background: #fff;
+  border-radius: 0px 0px 4px 4px;
 
 
 
@@ -451,7 +452,7 @@ nav {
 
 }
 .div-li{
-  width: calc((100% - 48px) / 3);
+ 
   border-radius: 0px 0px 4px 4px;
 }
 
