@@ -52,6 +52,7 @@ a {
 
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 76px
 
 }
 
@@ -95,6 +96,7 @@ a {
   width: 67;
   height: 24;
   opacity: 1;
+  padding: 24px 0;
 }
 
 nav {
@@ -118,6 +120,7 @@ nav {
 .adress-list-flex {
 
   display: flex;
+  gap: 40px
 }
 
 
@@ -334,6 +337,7 @@ nav {
 
   padding-bottom: 32px;
   padding-top: 32px;
+  margin: 0 auto;
 }
 
 .section-team {
@@ -386,10 +390,13 @@ nav {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize
-  margin-bott
+  text-transform: capitalize;
+  margin-bottom: 72px;
   
 
+}
+.container-port-container{
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio {
@@ -404,6 +411,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 .port-img-div{
   margin: 0 auto;
@@ -449,7 +457,7 @@ nav {
 
   background: #2e2f42;
   height: 312px;
-  padding-top: 100px
+  padding-top: 100px 0;
 }
 
 
