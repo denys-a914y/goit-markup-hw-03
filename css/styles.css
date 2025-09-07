@@ -430,6 +430,7 @@ nav {
 }
 .port-img-div{
   margin: 0 auto;
+  margin-bottom: 8px;
 
   padding: 32px 16px;
 }
@@ -451,6 +452,9 @@ nav {
 
 
 
+}
+.div-li{
+  width: calc((100% - 48px) / 3);
 }
 
 .service {
@@ -487,6 +491,7 @@ nav {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  
 
 
 
