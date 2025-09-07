@@ -426,12 +426,14 @@ nav {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+  
 }
 .port-img-div{
   margin: 0 auto;
   margin-bottom: 8px;
 
   padding: 32px 16px;
+  
 }
 
 
@@ -447,6 +449,9 @@ nav {
   color: #2e2f42;
   margin-bottom: 8px
 
+}
+.licu{
+  width: calc((100% - 48px) / 3);
 }
 .div-li{
  
