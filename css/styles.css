@@ -16,6 +16,19 @@ img {
   display: block
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -175,7 +188,9 @@ nav {
 
 }
 
-
+.section-solutions{
+  padding: 120px 0;
+}
 
 .section-start {
   background: #2e2f42;
@@ -395,7 +410,7 @@ nav {
   
 
 }
-.container-port-container{
+.container{
   border: 1px solid #e7e9fc;
 }
 
@@ -457,7 +472,7 @@ nav {
 
   background: #2e2f42;
   height: 312px;
-  padding-top: 100px 0;
+  
 }
 
 
