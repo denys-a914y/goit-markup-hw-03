@@ -32,6 +32,7 @@ a {
   color: #4d5ae5;
  
   display: flex;
+  margin-right: 76px
   
 
 
@@ -78,7 +79,11 @@ a {
     height: 24;
     opacity: 1;
 }
+nav{
 
+  display: flex;
+  align-items: center;
+}
 
 .nav-item-studio {
   color: #2e2f42;
@@ -146,11 +151,12 @@ a {
   top: 260px;
   left: 472px;
   padding: 188px 472px 292px 472px;
+  
 
   
 
 }
-.title-div{
+.container{
   width: 1440px;
     height: 600px;
     
@@ -213,6 +219,7 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 
 
 
@@ -226,6 +233,7 @@ a {
     top: 792px;
     left: 156px;
     gap: 8px;
+    width: calc((100% - 72px) / 4);
 }
 .solutions{
 
