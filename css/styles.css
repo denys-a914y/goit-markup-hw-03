@@ -39,10 +39,8 @@ a {
 
 }
 
-.container{
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
+h1, h2, h3, h4, h5, p {
+  margin: 0;
 }
 
 .navigator {
@@ -64,7 +62,7 @@ a {
   color: #4d5ae5;
 
   display: inline-block;
-  margin-bottom: 16px;
+ 
   margin-right: 76px
 
 }
@@ -278,8 +276,7 @@ nav {
   left: 156px;
   gap: 24px;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  
 }
 
 .solution-item-txt {
@@ -346,6 +343,7 @@ nav {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 
 }
 .team-div-list{
@@ -430,9 +428,10 @@ nav {
 }
 .port-img-div{
   margin: 0 auto;
-  margin-bottom: 8px;
+  
 
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   
 }
 
@@ -476,7 +475,7 @@ nav {
 .footer {
 
   background: #2e2f42;
-  height: 312px;
+  padding: 100px 0;
   
 }
 
@@ -524,7 +523,7 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin: 0 auto;
+ 
   max-width: 264px;
 
 
