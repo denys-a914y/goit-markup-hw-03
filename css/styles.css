@@ -36,10 +36,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 1158px;
+  margin: 0 auto
+ 
 
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -276,6 +279,8 @@ nav {
   left: 156px;
   gap: 24px;
   align-items: center;
+  max-width: 1128px;
+  
   
 }
 
@@ -284,11 +289,13 @@ nav {
   font-weight: 400;
   font-size: 16px;
   
+  
 
   /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  max-width: 264px;
 
 
 }
@@ -383,6 +390,8 @@ nav {
 
   background: #fff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+
 
 
 
@@ -408,7 +417,10 @@ nav {
 
 }
 .container{
-  border: 1px solid #e7e9fc;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+
 }
 
 .portfolio {
@@ -431,7 +443,9 @@ nav {
   
 
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc; 
+  border-top: none;
+  
   
 }
 
@@ -536,4 +550,9 @@ nav {
   display: flex;
   gap: 40px;
 
+}
+.ftr{
+
+  display: inline-block; 
+  margin-bottom: 16px;
 }
